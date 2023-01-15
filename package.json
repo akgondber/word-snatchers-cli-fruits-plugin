@@ -1,0 +1,36 @@
+{
+  "name": "word-snatchers-cli-fruits-plugin",
+  "version": "1.0.0",
+  "description": "Fruits plugin for word-snatchers-cli",
+  "main": "index.js",
+  "repository": "https://github.com/akgondber/word-snatchers-cli-fruits-plugin",
+  "author": "Rushan Alyautdinov <akgondber@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/pch.js",
+    "test": "uvu tests",
+    "prettify": "prettier --write .",
+    "check-files": "purposefile"
+  },
+  "keywords": [
+    "consolegame",
+    "cli",
+    "wordsnatcherscliplugin",
+    "plugin",
+    "fruits",
+    "english",
+    "learning",
+    "training",
+    "practicing",
+    "words"
+  ],
+  "devDependencies": {
+    "expect": "^29.3.1",
+    "post-command-hook": "^2.0.2",
+    "post-command-hook-install-packages-plugin": "^1.0.1",
+    "prettier": "^2.8.3",
+    "purposefile": "^1.2.0",
+    "uvu": "^0.5.6"
+  }
+}
